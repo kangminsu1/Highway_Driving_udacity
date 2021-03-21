@@ -11,7 +11,7 @@ The actual implementation of the decision and trajectory generation can be very 
 The path planner is located at the top of the software stack for self-driving cars. When the vehicle knows where to go, the route planner looks at how the vehicle reaches its goal.
 In general, path planners have three subcomponents: prediction, behaviour planner and trajectory generator. The predictive components receive input from Localization(ego vehicle position data) and sensor fusion (ambient position data, vehicles, obstacles, etc.). The expected set of trajectories for the object as a result of the prediction. Based on these predictions, paths, and vehicle conditions, the action module determines what can be done next. Finally, the trajectory generator creates a propellable trajectory that must satisfy the decision.
 
-##G oal of this project
+## Goal of this project
 ***
 The goal of this project is to safely explore virtual highways with other traffic volumes driving +-10 MPH with a 50 MPH speed limit. Vehicle positioning and sensor fusion data are provided, and there is a sparse list of waypoints around the highway. It should be noted that cars should try to get as close to the 50 mph speed limit as possible, which means slower traffic when possible, and other cars will also try to change lanes. In addition to avoiding collisions with other lanes, the vehicle must always be driven in marked road lanes unless it moves from one lane to another. The car will be able to completely circle the 6946m highway. As the vehicle is about to drive 50 mph, it will take a little more than 5 minutes to complete one circuit. Also, you cannot experience zerks larger than 10m/s^2 and 10m/s^3.
 

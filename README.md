@@ -1,6 +1,6 @@
 # CarND-Path-Planning-Project
 ***
-Self-Driving Car Engineer Nanodegree Program
+Self-Driving Car Engineer Nanodegree Program ## [Student: MinSu Kang]
 
 ## Path Planning with Self-driving Car
 ***
